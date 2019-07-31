@@ -2,7 +2,7 @@
 //  TableViewCellRegistrator.swift
 //  Registrator
 //
-//  Created by Admin on 31/07/2019.
+//  Created by null-z on 31/07/2019.
 //  Copyright © 2019 NZ. All rights reserved.
 //
 

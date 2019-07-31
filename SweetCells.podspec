@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'SweetCells'
   s.version          = '0.1.0'
-  s.summary          = 'Forget about register and type casting of UITableViewCell's'
+  s.summary          = 'Forget about register and type casting of UITableViewCells'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SweetCells is a little syntactic sugar for those who use custom UITableViewCell in xib in their projects. SweetCells will not allow you to make a mistake with the identifier of the cell and nibName, and dequeueReusableCell will immediately return to you the cell of the desired class.
                        DESC
 
   s.homepage         = 'https://github.com/null-z/SweetCells'
@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SweetCells/SweetCells/**/*'
+  s.source_files = 'SweetCells/**/*.{h, m, swift}'
   
   # s.frameworks = 'UIKit'
 end
