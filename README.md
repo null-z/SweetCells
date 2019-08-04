@@ -1,4 +1,5 @@
-<p align="center">
+# SweetCells
+<p>
 <img src="https://img.shields.io/cocoapods/v/SweetCells.svg?style=flat"></a>
 <a href="https://github.com/null-z/SweetCells/blob/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/SweetCells.svg?style=flat"></a>
 </p>
