@@ -11,6 +11,8 @@ SweetCells is a little syntactic sugar for those who use custom UITableViewCell 
   s.author           = { 'null-z' => 'null-z@mail.ru' }
   s.source           = { :git => 'https://github.com/null-z/SweetCells.git', :tag => s.version }
 
+  s.swift_version = '4.0'
+
   s.ios.deployment_target = '8.0'
 
   s.source_files  = ['SweetCells/**/*.swift', "SweetCells/SweetCells.h"]
