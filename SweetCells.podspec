@@ -9,11 +9,14 @@ SweetCells is a little syntactic sugar for those who use custom UITableViewCell 
   s.homepage         = 'https://github.com/null-z/SweetCells'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'null-z' => 'null-z@mail.ru' }
-  s.source           = { :git => 'https://github.com/null-z/SweetCells.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/null-z/SweetCells.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SweetCells/**/*.{h, m, swift}'
+  s.source_files  = ['SweetCells/**/*.swift', "SweetCells/SweetCells.h"]
+  s.public_header_files = ['SweetCells/SweetCells.h']
   
   # s.frameworks = 'UIKit'
+  s.requires_arc = true
+
 end
